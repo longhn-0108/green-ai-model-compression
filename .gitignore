@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# Large/generated artifacts
+*.pth
+*.pt
+*.onnx
+*.ckpt
+results/*.json
+results/*.log
+results/*.txt
+# Downloaded datasets
+/data/cifar-100-python/
+/data/cifar-100-python.tar.gz

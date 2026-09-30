@@ -1,24 +1,12 @@
-# --- Deep Learning Core ---
-# PyTorch framework (phiên bản phù hợp sẽ được pip tự chọn)
 torch
 torchvision
 torchaudio
-
-# --- Data Processing & Analysis ---
-numpy>=1.21.0       # Xử lý ma trận, tính toán số học
-pandas              # Đọc/ghi và phân tích file log (CSV/Excel)
-
-# --- Visualization ---
-matplotlib          # Vẽ biểu đồ (Acc vs Energy)
-seaborn             # Vẽ biểu đồ đẹp hơn (tùy chọn, nhưng nên có)
-
-# --- Utilities ---
-tqdm                # Thanh tiến trình (Progress bar) khi train
-codecarbon          # Đo lường năng lượng tiêu thụ (Core feature)
-requests            # Thư viện hỗ trợ tải data nếu cần
-psutil              # Hỗ trợ CodeCarbon đo phần cứng hệ thống
-
-# --- Optional (Jupyter) ---
-# Nếu bạn muốn chạy thử nghiệm trên Jupyter Notebook sau này
+numpy>=1.21
+pandas
+matplotlib
+seaborn
+tqdm
+codecarbon
+psutil
 jupyter
 notebook
